@@ -1,0 +1,25 @@
+.productBox{
+    min-width: 300px;
+    height: auto;
+    background-color: rgb(205, 252, 220);
+    border: 1px solid rgb(0, 92, 0);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.productBox img{
+    width: 100%;
+}
+.productBox .nazwa{
+    height: 40px;
+    color: white;
+    display: grid;
+    place-content: center;
+    background-color: rgb(0, 92, 0);
+}
+.nazwa h2{
+    margin: 0;
+}
+.productBox .description h2{
+    text-align: end;
+}
